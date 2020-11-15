@@ -1,8 +1,10 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import { Router, Redirect, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
+
 import Header from "./components/Header";
 import Progress from "./components/Progress";
+
 import {
   StylesProvider,
   createGenerateClassName,
